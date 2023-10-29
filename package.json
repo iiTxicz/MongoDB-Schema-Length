@@ -1,0 +1,25 @@
+{
+  "name": "mongodb-schema-length",
+  "version": "1.0.0",
+  "description": "MongoDB Schema Length",
+  "main": "mongodb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iiTxicz/MongoDB-Schema-Length.git"
+  },
+  "keywords": [
+    "mongodb-length"
+  ],
+  "author": "iiTxicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iiTxicz/MongoDB-Schema-Length/issues"
+  },
+  "homepage": "https://github.com/iiTxicz/MongoDB-Schema-Length#readme",
+  "dependencies": {
+    "mongoose": "^7.6.3"
+  }
+}

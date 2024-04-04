@@ -17,7 +17,7 @@ connect('put-mongoDB-URI-HERE', {
     
     console.log(`Login length: ${fL1}`);
 
-    mongoose.connection.close();
+    await mongoose.connection.close();
     process.exit();
 }).catch((error) => {
     console.log(error);
